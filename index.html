@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura - Tabela de Classificação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onpageshow="exibeJogadoresNaTela(jogadores)">
+    <h1>Tabela de Classificação</h1>
+    
+    <button style="margin: 10px" onClick="adicionarJogador()">Adicionar Jogador</button>
+    <input type="text" id="nomeJogador" placeholder="Nome do Jogador"/><br>
+    
+    <table style="width:45%">
+        <thead>
+        <tr>
+            <th>Nomessss</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th colspan="3">Ações</th>
+        </tr>
+        </thead>
+        <tbody id="tabelaJogadores">        
+        <!--
+            <tr>
+            <td>Paulo</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td><button onClick="adicionarVitoria()">Adicionar Vitória</button>
+            <button onClick="removerVitoria()">Remover Vitória</button></td>
+            <td><button onClick="adicionarEmpate()">Adicionar Empate</button>
+            <button onClick="removerEmpate()">Remover Empate</button></td>
+            <td><button onClick="adicionarDerrota()">Adicionar Derrota</button>
+            <button onClick="removerDerrota()">Remover Derrota</button></td>
+        </tr>
+        <tr>
+            <td>Rafa</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td><button onClick="adicionarVitoria()">Adicionar Vitória</button><button onClick="removerVitoria()">Remover Vitória</button></td>
+            <td><button onClick="adicionarEmpate()">Adicionar Empate</button><button onClick="removerEmpate()">Remover Empate</button></td>
+            <td><button onClick="adicionarDerrota()">Adicionar Derrota</button><button onClick="removerDerrota()">Remover Derrota</button></td>
+        </tr>
+        -->
+        </tbody>
+    </table>
+</body>
+</html>
